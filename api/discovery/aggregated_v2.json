@@ -1,0 +1,219 @@
+{
+  "apiVersion": "apidiscovery.k8s.io/v2",
+  "items": [
+    {
+      "metadata": {
+        "name": "oauth.openshift.io"
+      },
+      "versions": [
+        {
+          "freshness": "Current",
+          "resources": [
+            {
+              "resource": "oauthaccesstokens",
+              "responseKind": {
+                "group": "",
+                "kind": "OAuthAccessToken",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "oauthaccesstoken",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "oauthauthorizetokens",
+              "responseKind": {
+                "group": "",
+                "kind": "OAuthAuthorizeToken",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "oauthauthorizetoken",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "oauthclientauthorizations",
+              "responseKind": {
+                "group": "",
+                "kind": "OAuthClientAuthorization",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "oauthclientauthorization",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "oauthclients",
+              "responseKind": {
+                "group": "",
+                "kind": "OAuthClient",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "oauthclient",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "tokenreviews",
+              "responseKind": {
+                "group": "authentication.k8s.io",
+                "kind": "TokenReview",
+                "version": "v1"
+              },
+              "scope": "Cluster",
+              "singularResource": "tokenreview",
+              "verbs": [
+                "create"
+              ]
+            },
+            {
+              "resource": "useroauthaccesstokens",
+              "responseKind": {
+                "group": "",
+                "kind": "UserOAuthAccessToken",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "useroauthaccesstoken",
+              "verbs": [
+                "delete",
+                "get",
+                "list",
+                "watch"
+              ]
+            }
+          ],
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "user.openshift.io"
+      },
+      "versions": [
+        {
+          "freshness": "Current",
+          "resources": [
+            {
+              "resource": "groups",
+              "responseKind": {
+                "group": "",
+                "kind": "Group",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "group",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "identities",
+              "responseKind": {
+                "group": "",
+                "kind": "Identity",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "identity",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            },
+            {
+              "resource": "useridentitymappings",
+              "responseKind": {
+                "group": "",
+                "kind": "UserIdentityMapping",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "useridentitymapping",
+              "verbs": [
+                "create",
+                "delete",
+                "get",
+                "patch",
+                "update"
+              ]
+            },
+            {
+              "resource": "users",
+              "responseKind": {
+                "group": "",
+                "kind": "User",
+                "version": ""
+              },
+              "scope": "Cluster",
+              "singularResource": "user",
+              "verbs": [
+                "create",
+                "delete",
+                "deletecollection",
+                "get",
+                "list",
+                "patch",
+                "update",
+                "watch"
+              ]
+            }
+          ],
+          "version": "v1"
+        }
+      ]
+    }
+  ],
+  "kind": "APIGroupDiscoveryList",
+  "metadata": {}
+}

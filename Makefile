@@ -27,6 +27,7 @@ update:
 	hack/update-generated-deep-copies.sh
 	hack/update-generated-defaulters.sh
 	hack/update-generated-openapi.sh
+	hack/update-openapi-spec.sh
 .PHONY: update
 
 verify:
@@ -34,6 +35,7 @@ verify:
 	hack/verify-generated-deep-copies.sh
 	hack/verify-generated-defaulters.sh
 	hack/verify-generated-openapi.sh
+	hack/verify-openapi-spec.sh
 .PHONY: verify
 
 test-e2e: GO_TEST_PACKAGES :=./test/e2e/...
