@@ -1,0 +1,71 @@
+{
+  "apiVersion": "v1",
+  "groupVersion": "user.openshift.io/v1",
+  "kind": "APIResourceList",
+  "resources": [
+    {
+      "kind": "Group",
+      "name": "groups",
+      "namespaced": false,
+      "singularName": "group",
+      "storageVersionHash": "YhnYEx+IpBw=",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ]
+    },
+    {
+      "kind": "Identity",
+      "name": "identities",
+      "namespaced": false,
+      "singularName": "identity",
+      "storageVersionHash": "/S8uaPXlz9c=",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ]
+    },
+    {
+      "kind": "UserIdentityMapping",
+      "name": "useridentitymappings",
+      "namespaced": false,
+      "singularName": "useridentitymapping",
+      "verbs": [
+        "create",
+        "delete",
+        "get",
+        "patch",
+        "update"
+      ]
+    },
+    {
+      "kind": "User",
+      "name": "users",
+      "namespaced": false,
+      "singularName": "user",
+      "storageVersionHash": "Hbwv6GYPwoQ=",
+      "verbs": [
+        "create",
+        "delete",
+        "deletecollection",
+        "get",
+        "list",
+        "patch",
+        "update",
+        "watch"
+      ]
+    }
+  ]
+}

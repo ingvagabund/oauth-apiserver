@@ -1,0 +1,22 @@
+{
+  "paths": {
+    "apis": {
+      "serverRelativeURL": "/openapi/v3/apis"
+    },
+    "apis/oauth.openshift.io": {
+      "serverRelativeURL": "/openapi/v3/apis/oauth.openshift.io"
+    },
+    "apis/oauth.openshift.io/v1": {
+      "serverRelativeURL": "/openapi/v3/apis/oauth.openshift.io/v1"
+    },
+    "apis/user.openshift.io": {
+      "serverRelativeURL": "/openapi/v3/apis/user.openshift.io"
+    },
+    "apis/user.openshift.io/v1": {
+      "serverRelativeURL": "/openapi/v3/apis/user.openshift.io/v1"
+    },
+    "version": {
+      "serverRelativeURL": "/openapi/v3/version"
+    }
+  }
+}
